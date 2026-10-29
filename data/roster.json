@@ -1,0 +1,90 @@
+{
+  "targetTotal": 20,
+  "targetPerEra": 10,
+  "configuredTotal": 10,
+  "remainingUnconfirmed": 10,
+  "creatures": [
+    "cam_wiwaxia",
+    "cam_anomalocaris",
+    "cam_olenoides",
+    "cam_opabinia",
+    "cam_marrella",
+    "jur_stegosaurus",
+    "jur_allosaurus",
+    "jur_diplodocus",
+    "jur_ceratosaurus",
+    "jur_dryosaurus"
+  ],
+  "draftSlots": [
+    {
+      "id": "draft_slot_1",
+      "eraId": "cambrian",
+      "status": "draft",
+      "name": null,
+      "countedAsCompleted": false
+    },
+    {
+      "id": "draft_slot_2",
+      "eraId": "cambrian",
+      "status": "draft",
+      "name": null,
+      "countedAsCompleted": false
+    },
+    {
+      "id": "draft_slot_3",
+      "eraId": "cambrian",
+      "status": "draft",
+      "name": null,
+      "countedAsCompleted": false
+    },
+    {
+      "id": "draft_slot_4",
+      "eraId": "cambrian",
+      "status": "draft",
+      "name": null,
+      "countedAsCompleted": false
+    },
+    {
+      "id": "draft_slot_5",
+      "eraId": "cambrian",
+      "status": "draft",
+      "name": null,
+      "countedAsCompleted": false
+    },
+    {
+      "id": "draft_slot_6",
+      "eraId": "jurassic_late",
+      "status": "draft",
+      "name": null,
+      "countedAsCompleted": false
+    },
+    {
+      "id": "draft_slot_7",
+      "eraId": "jurassic_late",
+      "status": "draft",
+      "name": null,
+      "countedAsCompleted": false
+    },
+    {
+      "id": "draft_slot_8",
+      "eraId": "jurassic_late",
+      "status": "draft",
+      "name": null,
+      "countedAsCompleted": false
+    },
+    {
+      "id": "draft_slot_9",
+      "eraId": "jurassic_late",
+      "status": "draft",
+      "name": null,
+      "countedAsCompleted": false
+    },
+    {
+      "id": "draft_slot_10",
+      "eraId": "jurassic_late",
+      "status": "draft",
+      "name": null,
+      "countedAsCompleted": false
+    }
+  ]
+}

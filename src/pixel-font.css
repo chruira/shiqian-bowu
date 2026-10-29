@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Deep Time Pixel";
+  src: url("../assets/fonts/fusion-pixel-12px-zh-hans.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+/* Pixel lettering is reserved for the game identity. Reading uses a regular
+   Chinese system font, including on phones and inside nested dialogs. */
+:root { --pixel-font: "Deep Time Pixel", monospace; --reading-font: "Microsoft YaHei UI", "Microsoft YaHei", "PingFang SC", system-ui, sans-serif; }
+html, body { font-family: var(--reading-font); }
+.title-content h1, .game-brand, .brand-sigil { font-family: var(--pixel-font); }
+
+.title-content h1 { font-size: clamp(48px, 6vw, 84px); }
+.title-poem { font-size: 18px; line-height: 2; }
+.npc-dialog-head h2, .book-page h2, .c-modal-head h2 { font-size: 24px; }
+.npc-dialog .guide-speech { font-size: 18px; line-height: 2; }
+.npc-name, .exploration-status, .exploration-status span:last-child,
+.field-actions button > span, .npc-behavior, .npc-achievements,
+.discovery-card > small, .no-photo small { font-size: 12px; }
+.npc-dialog-head small { font-size: 12px; overflow-wrap: anywhere; }
+.npc-name { max-width: 160px; letter-spacing: 0; }
+.npc-dialog, .field-book, .c-dialog { text-rendering: auto; }
+.c-reading p, .c-evidence-card p { line-height: 2; }
+
+@media (max-width: 760px) {
+  .title-content h1 { font-size: 48px; }
+  .title-poem { font-size: 15px; letter-spacing: 1px; }
+  .npc-name, .exploration-status, .exploration-status span:last-child,
+  .field-actions button > span { font-size: 10px; }
+  .npc-dialog .guide-speech { font-size: 18px; }
+  .npc-dialog-head h2 { font-size: 24px; }
+  .npc-actions .pixel-button { font-size: 12px; }
+  .discovery-card h3 { font-size: 18px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scene-arrival { opacity: 0; }
+  .camera-flash { display: none; }
+}

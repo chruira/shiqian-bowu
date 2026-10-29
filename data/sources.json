@@ -1,0 +1,59 @@
+{
+  "dk": {
+    "id": "dk",
+    "title": "DK《史前博物大百科》中文版",
+    "url": null,
+    "accessed": "2026-10-27",
+    "license": "用户提供赛事文件；本模块不再分发书籍原图，仅记录页码并作短文改写。"
+  },
+  "wiw": {
+    "id": "wiw",
+    "title": "ROM · Wiwaxia corrugata",
+    "url": "https://burgess-shale.rom.on.ca/fossils/wiwaxia-corrugata/"
+  },
+  "smith": {
+    "id": "smith",
+    "title": "Smith 2012 · Wiwaxia 口器研究",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22915671/"
+  },
+  "olen": {
+    "id": "olen",
+    "title": "ROM · Olenoides serratus",
+    "url": "https://burgess-shale.rom.on.ca/fossils/olenoides-serratus/"
+  },
+  "opa": {
+    "id": "opa",
+    "title": "ROM · Opabinia regalis",
+    "url": "https://burgess-shale.rom.on.ca/fossils/opabinia-regalis/"
+  },
+  "mar": {
+    "id": "mar",
+    "title": "ROM · Marrella splendens",
+    "url": "https://burgess-shale.rom.on.ca/fossils/marrella-splendens/"
+  },
+  "ano": {
+    "id": "ano",
+    "title": "AMNH · 加拿大奇虾食性研究更新（2023）",
+    "url": "https://www.amnh.org/explore/news-blogs/apex-predator-soft-diet"
+  },
+  "ste": {
+    "id": "ste",
+    "title": "NHM · Stegosaurus",
+    "url": "https://www.nhm.ac.uk/discover/dino-directory/stegosaurus.html"
+  },
+  "injury": {
+    "id": "injury",
+    "title": "犹他州自然历史博物馆 · 化石损伤与防御",
+    "url": "https://nhmu.utah.edu/articles/dinosaur-damage-and-defense-nhmus-collections"
+  },
+  "dip": {
+    "id": "dip",
+    "title": "NHM · Diplodocus",
+    "url": "https://www.nhm.ac.uk/discover/dino-directory/diplodocus.html"
+  },
+  "nps": {
+    "id": "nps",
+    "title": "NPS · Dinosaur National Monument 恐龙记录",
+    "url": "https://home.nps.gov/dino/learn/nature/dinosaurs-of-dinosaur.htm"
+  }
+}

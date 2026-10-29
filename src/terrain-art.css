@@ -1,0 +1,46 @@
+.stop-illustration {
+  width: 144px;
+  height: 90px;
+  display: block;
+  overflow: hidden;
+  border: 2px solid #a08149;
+  background: #c2b17f;
+  box-shadow: 3px 4px 0 #97743d44;
+  transform: rotate(-2deg);
+  margin-bottom: 4px;
+  opacity: .9;
+}
+#world-canvas { image-rendering: auto; }
+.stop-illustration img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  image-rendering: auto;
+  filter: saturate(.75) sepia(.15);
+  transition: filter .2s, transform .2s;
+}
+.map-stop:nth-of-type(even) .stop-illustration { transform: rotate(2deg); }
+.map-stop:hover .stop-illustration img { filter: saturate(1); transform: scale(1.04); }
+.map-stop.current .stop-illustration { border-color: #8b5c21; box-shadow: 0 0 0 3px #f0d598,3px 4px 0 #97743d44; }
+.map-stop.locked .stop-illustration img { filter: sepia(.7) saturate(.3); }
+.npc-marker.creature { width: 116px; height: 94px; }
+.npc-marker.creature .npc-name { transform: translateY(7px); }
+/* Album art is a dedicated environment painting; map cutouts keep their own path. */
+.book-illustration.album-painting { height: 340px; background: #cdbb8e; }
+.book-illustration.album-painting img { object-fit: contain; mix-blend-mode: normal; filter: none; image-rendering: auto; }
+.album-art-note { color: #8b764c; font-size: 11px; line-height: 1.8; margin-top: 12px; }
+.album-art-note a { text-underline-offset: 3px; }
+@media(max-width:760px) {
+  .stop-illustration { width: 99px; height: 62px; }
+  .npc-marker.creature { width: 95px; height: 78px; }
+  .book-illustration.album-painting { height: 285px; }
+}
+@media(max-width:600px) {
+  .map-stop:nth-of-type(1) { --mobile-x:25%; --mobile-y:29%; }
+  .map-stop:nth-of-type(2) { --mobile-x:25%; --mobile-y:52%; }
+  .map-stop:nth-of-type(3) { --mobile-x:25%; --mobile-y:75%; }
+  .map-stop:nth-of-type(4) { --mobile-x:74%; --mobile-y:29%; }
+  .map-stop:nth-of-type(5) { --mobile-x:74%; --mobile-y:52%; }
+  .map-stop:nth-of-type(6) { --mobile-x:74%; --mobile-y:75%; }
+}

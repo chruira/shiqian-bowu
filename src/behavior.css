@@ -1,0 +1,42 @@
+.world-viewport:has(.behavior-watch.visible) .interaction-prompt{display:none}
+.behavior-watch .watch-title{flex:1}.behavior-watch [data-observation-photo]{font-size:16px}
+.exploration-status{pointer-events:auto;z-index:5;min-width:215px;gap:7px}
+.exploration-status button{background:none;border:0;padding:0;min-height:25px;text-align:left;font-size:11px;color:#d8d9a5;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.habitat-guide{display:none;position:absolute;top:131px;left:14px;width:252px;max-height:64%;overflow:auto;z-index:7;background:#102d34f2;border:1px solid #94ab86;padding:14px 16px;color:#d4dfb9;box-shadow:3px 4px #061c24aa}
+.habitat-guide.open{display:block}.habitat-guide header{display:flex;align-items:center;justify-content:space-between;font-size:11px;color:#a8c19c}.habitat-guide header button{color:#d4dfb9;border:1px solid #73977d;background:#25473e;min-width:30px;min-height:30px;font-size:17px}.habitat-guide h3{font-size:16px;font-weight:400;line-height:1.7;margin:12px 0 6px}.habitat-guide>p{font-size:12px;line-height:1.8;color:#a7bda1;margin:7px 0 14px}.habitat-guide ol{list-style:none;display:grid;gap:13px;padding:0;margin:0}.habitat-guide li{border-top:1px solid #688a6d66;padding-top:11px}.habitat-guide li strong,.habitat-guide li span{display:block}.habitat-guide li strong{font-weight:400;font-size:13px}.habitat-guide li span{font-size:11px;color:#a0b696;line-height:1.8;margin-top:5px}.habitat-guide li button{background:#d8e1b3;color:#244739;border:1px solid #eff0c7;min-height:34px;padding:5px 10px;margin-top:9px;font-size:11px}.habitat-guide li.done strong{color:#e1d48a}.habitat-guide>small{display:block;color:#7d9c83;font-size:10px;line-height:1.8;margin-top:15px}
+.npc-actions .behavior-start{grid-column:1/-1;font-size:14px;min-height:49px}.npc-dialog-body .behavior-goal{color:#e0dfb4;font-size:16px}.npc-dialog-body .npc-observation-note{font-size:12px;line-height:1.9}.npc-activity{position:absolute;top:-18px;left:50%;transform:translateX(-50%);background:#133d38dc;color:#d5e3bc;padding:3px 6px;white-space:nowrap;font-size:11px;border:1px solid #73977a77;pointer-events:none}.npc-activity:empty{display:none}.npc-marker.observing .npc-target-ring{border-color:#dfdda4;box-shadow:0 0 12px #d1dda544}
+.behavior-watch{display:none;position:absolute;right:17px;bottom:92px;width:336px;max-height:48%;overflow:auto;padding:15px 17px;background:#0f2e35f5;border:1px solid #cad3a3;box-shadow:4px 4px #071d24bb;z-index:8;color:#dce3bf}.behavior-watch.visible{display:block}.behavior-watch header{display:flex;justify-content:space-between;gap:12px;align-items:center;color:#e4d8a1;font-size:12px}.behavior-watch header button{min-width:30px;min-height:30px;background:#244a42;border:1px solid #87a289;color:#e1e6bb;font-size:18px}.behavior-watch>strong{display:block;margin:12px 0 8px;font-size:14px;line-height:1.8;font-weight:400}.behavior-watch p{font-size:12px;line-height:1.9;color:#b8c9a6;margin:10px 0}.behavior-watch small{font-size:10px;line-height:1.8;color:#8ca78e}.watch-track{height:5px;background:#34584b;margin:10px 0}.watch-track i{display:block;background:#dfd18c;height:100%;width:0}.watch-journal{background:#dce3b6;color:#264a3d;border:1px solid #f3efc7;padding:8px 12px;min-height:36px;margin:6px 0 10px;font-size:12px}.behavior-watch:has(.watch-stage)~.interaction-prompt{display:none}.habitat-pointer{display:none;position:absolute;top:47%;padding:8px 10px;background:#163b39e8;border:1px solid #bfcda1;color:#e2e1b8;z-index:6;font-size:11px;max-width:155px;min-height:40px}.habitat-pointer.visible{display:block}.habit-records{list-style:none;padding:0;margin:12px 0;border-top:1px solid #c1b07a}.habit-records li{padding-top:10px}.habit-records strong{display:block;font-size:11px;line-height:1.8;font-weight:400;color:#6e734a}.habit-records p{font-size:11px;line-height:1.9;color:#8a784b;margin:6px 0}.discovery-card{overflow-wrap:anywhere}
+@media(max-width:760px){.exploration-status{min-width:0;max-width:86%;font-size:10px}.exploration-status button{font-size:10px;min-height:24px}.habitat-guide{top:124px;left:8px;width:260px;max-height:58%;padding:12px 14px}.habitat-guide>p{font-size:12px}.habitat-guide h3{font-size:15px}.habitat-guide li button{min-height:39px}.behavior-watch{left:8px;right:8px;bottom:87px;width:auto;max-height:35%;padding:12px 14px}.behavior-watch>strong{font-size:12px;margin:8px 0 5px}.behavior-watch p{font-size:11px;margin:7px 0}.behavior-watch header{font-size:11px}.behavior-watch small{font-size:9px}.npc-activity{font-size:10px}.npc-actions .behavior-start{font-size:13px}.field-actions{top:106px}.follow-status{top:29%}.habitat-pointer{font-size:10px;max-width:125px}.discovery-grid{grid-template-columns:1fr}.habit-records p{font-size:12px}}
+@media(max-height:500px) and (orientation:landscape){.habitat-guide{top:92px;max-height:55%;width:240px}.behavior-watch{bottom:16px;right:10px;left:auto;width:290px;max-height:60%}.exploration-status{top:32px}.field-actions{top:55px}.behavior-watch>strong{font-size:11px}.behavior-watch p{font-size:10px}}
+@media(max-width:760px) and (orientation:portrait){
+  .world-viewport:has(.behavior-watch.visible[data-mode=watch]) .exploration-status,
+  .world-viewport:has(.behavior-watch.visible[data-mode=watch]) .field-actions{display:none}
+  .behavior-watch[data-mode=watch]{top:42px;bottom:auto;max-height:145px;padding:10px 13px}
+  .behavior-watch[data-mode=watch] .watch-description{display:none}
+  .behavior-watch[data-mode=watch]>strong{margin:7px 0 5px;font-size:12px}
+  .behavior-watch[data-mode=watch] .watch-track{margin:7px 0}
+}
+
+/* ---------- 观察进度卡：挪到画面左侧，避免遮挡右侧内容 ---------- */
+.behavior-watch{
+  right:auto !important;
+  left:17px !important;
+  bottom:92px !important;
+  width:320px !important;
+}
+.behavior-watch[data-mode=watch]{
+  right:auto !important;
+  left:17px !important;
+  top:42px !important;
+  bottom:auto !important;
+  width:340px !important;
+}
+/* 左侧卡片与左上角状态条错开 */
+.world-viewport:has(.behavior-watch.visible) .exploration-status{
+  left:auto !important;right:14px !important;align-items:flex-end;text-align:right;
+}
+@media (max-width:760px){
+  .behavior-watch, .behavior-watch[data-mode=watch]{
+    left:8px !important;right:auto !important;width:min(78vw,320px) !important;
+  }
+}

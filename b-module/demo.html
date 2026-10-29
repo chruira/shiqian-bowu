@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>史前竞技场 · B 模块（独立演示）</title>
+<link rel="stylesheet" href="b-module.css">
+<link rel="stylesheet" href="battle2.css">
+</head>
+<body>
+<div id="b-root">
+
+  <!-- 顶部导航 -->
+  <div class="b-top">
+    <div class="t-left">
+      <span class="t-title">史前竞技场</span>
+      <span class="t-sub" id="t-sub">档案与对战</span>
+    </div>
+    <div class="t-right">
+      <span class="chip" id="chip-unlocked">已解锁 0</span>
+      <span class="chip" id="chip-research">研究点 0</span>
+      <button class="pxbtn" id="btn-unlock-all" style="padding:7px 14px;font-size:13px">模拟调查完成</button>
+      <button class="pxbtn" id="btn-reset" style="padding:7px 14px;font-size:13px">清空存档</button>
+    </div>
+  </div>
+
+  <!-- 三个页面 -->
+  <div class="screen on" id="screen-collection"></div>
+  <div class="screen" id="screen-challenge"></div>
+  <div class="screen" id="screen-rank"></div>
+
+  <!-- 战斗容器 -->
+  <div id="battle-host" style="position:absolute;inset:0;display:none;z-index:999;background:#0a1720"></div>
+
+  <!-- 底部导航 -->
+  <div id="nav" style="position:absolute;left:0;right:0;bottom:0;height:56px;display:flex;gap:12px;
+       align-items:center;padding:0 26px;background:rgba(12,26,32,.95);border-top:3px solid #2b4a58;z-index:40">
+    <button class="pxbtn" data-nav="collection" style="padding:8px 20px">档 案</button>
+    <button class="pxbtn" data-nav="challenge" style="padding:8px 20px">挑 战</button>
+    <button class="pxbtn" data-nav="rank" style="padding:8px 20px">排 行</button>
+    <span style="margin-left:auto;font-size:12px;color:#8fb8c2;letter-spacing:.08em" id="nav-hint"></span>
+  </div>
+
+  <div class="b-toast" id="toast"></div>
+</div>
+
+<script src="data/creatures.js"></script>
+<script src="data/actions.js"></script>
+<script src="data/challenges.js"></script>
+<script src="battle-engine.js"></script>
+<script src="adapter.js"></script>
+<script src="fx.js"></script>
+<script src="battle-view.js"></script>
+<script src="collection.js"></script>
+<script src="rankings.js"></script>
+<script src="bridge.js"></script>
+<script src="demo.js"></script>
+</body>
+</html>

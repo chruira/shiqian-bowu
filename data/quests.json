@@ -1,0 +1,670 @@
+[
+  {
+    "id": "quest_cam_feeding_01",
+    "eraId": "cambrian",
+    "sceneId": "cam_feeding",
+    "creatureIds": [
+      "cam_wiwaxia",
+      "cam_marrella"
+    ],
+    "title": "威瓦西亚虫的食物来自哪里",
+    "question": "哪条线索更能帮助判断威瓦西亚虫获取食物的方式？",
+    "template": "observe",
+    "stages": [
+      "observe",
+      "judge",
+      "result"
+    ],
+    "observationHotspots": [
+      {
+        "id": "mouth",
+        "label": "腹面口器",
+        "x": 28,
+        "y": 70,
+        "text": "腹面的齿列与获取食物有关；研究者据此推测它可能刮取海床表面食物。",
+        "creatureId": "cam_wiwaxia",
+        "evidenceId": "cam_wiwaxia:mouth"
+      },
+      {
+        "id": "spines",
+        "label": "背部长棘",
+        "x": 56,
+        "y": 27,
+        "text": "长棘在背部。它们可能帮助防御，却不能单独证明吃什么。",
+        "creatureId": "cam_wiwaxia",
+        "evidenceId": "cam_wiwaxia:spines"
+      },
+      {
+        "id": "mat",
+        "label": "微生物席",
+        "x": 77,
+        "y": 84,
+        "text": "海床表面的微生物群落可能提供食物；这是一种有依据、仍需谨慎的解释。",
+        "creatureId": "cam_wiwaxia",
+        "evidenceId": "cam_wiwaxia:mat"
+      },
+      {
+        "id": "antenna",
+        "label": "头部触角",
+        "x": 29,
+        "y": 31,
+        "text": "触角可能帮助感知周围；不能把头部棘直接当成捕猎武器。",
+        "creatureId": "cam_marrella",
+        "evidenceId": "cam_marrella:antenna"
+      },
+      {
+        "id": "legs",
+        "label": "身体附肢",
+        "x": 61,
+        "y": 63,
+        "text": "附肢结构支持游动与收集颗粒的解释，颗粒可能来自水中或沉积物。",
+        "creatureId": "cam_marrella",
+        "evidenceId": "cam_marrella:legs"
+      }
+    ],
+    "options": [
+      {
+        "id": "mouth",
+        "text": "腹面口器的齿列",
+        "correct": true,
+        "feedback": "口器直接参与取食，因此比背棘更相关。它支持可能刮食微生物席的解释。"
+      },
+      {
+        "id": "spines",
+        "text": "背部长棘很尖",
+        "correct": false,
+        "feedback": "长棘可能与防御有关。回到腹面口器，寻找与取食直接有关的线索。"
+      },
+      {
+        "id": "size",
+        "text": "它的颜色和体型",
+        "correct": false,
+        "feedback": "示意图颜色不是化石证据；体型也不能单独说明取食方式。"
+      }
+    ],
+    "knowledgeIds": [
+      "knowledge_cam_wiwaxia",
+      "knowledge_cam_marrella"
+    ],
+    "completionConditions": {
+      "requiredEvidence": [
+        "cam_wiwaxia:mouth",
+        "cam_wiwaxia:spines",
+        "cam_wiwaxia:mat"
+      ],
+      "correctJudgment": true,
+      "correctEvidence": true
+    },
+    "unlockCreatureIds": [
+      "cam_wiwaxia",
+      "cam_marrella"
+    ],
+    "ecologyLinkIds": [
+      "link_cam_mat_wiwaxia",
+      "link_cam_detritus_marrella"
+    ],
+    "prerequisiteIds": [],
+    "noteId": "note_quest_cam_feeding_01",
+    "correctEvidenceId": "cam_wiwaxia:mouth",
+    "notebookSummary": "可能刮食微生物席；长棘不是捕食证明。 可能从水中或沉积物摄取有机颗粒。"
+  },
+  {
+    "id": "quest_cam_compare_02",
+    "eraId": "cambrian",
+    "sceneId": "cam_water",
+    "creatureIds": [
+      "cam_anomalocaris",
+      "cam_olenoides",
+      "cam_opabinia"
+    ],
+    "title": "有刺，就能夹碎硬壳吗",
+    "question": "对照前附肢、三叶虫外骨骼与长吻，哪一种解释更谨慎？",
+    "template": "compare",
+    "stages": [
+      "observe",
+      "judge",
+      "result"
+    ],
+    "observationHotspots": [
+      {
+        "id": "limb",
+        "label": "前附肢",
+        "x": 26,
+        "y": 59,
+        "text": "前附肢参与抓取。2023年研究认为它更适于捕捉柔软的猎物。",
+        "creatureId": "cam_anomalocaris",
+        "evidenceId": "cam_anomalocaris:limb"
+      },
+      {
+        "id": "eye",
+        "label": "眼与游泳叶",
+        "x": 64,
+        "y": 44,
+        "text": "眼和身体侧叶有助于理解感知与游泳，但不能确定每一种猎物。",
+        "creatureId": "cam_anomalocaris",
+        "evidenceId": "cam_anomalocaris:eye"
+      },
+      {
+        "id": "axis",
+        "label": "中央轴叶",
+        "x": 50,
+        "y": 45,
+        "text": "中央的一条轴叶与两侧肋叶，构成从左到右的三叶。",
+        "creatureId": "cam_olenoides",
+        "evidenceId": "cam_olenoides:axis"
+      },
+      {
+        "id": "shell",
+        "label": "外骨骼",
+        "x": 72,
+        "y": 61,
+        "text": "硬的背部外骨骼较容易留下化石；腹面的附肢也可能在特殊条件下保存。",
+        "creatureId": "cam_olenoides",
+        "evidenceId": "cam_olenoides:shell"
+      },
+      {
+        "id": "nozzle",
+        "label": "长吻末端",
+        "x": 20,
+        "y": 65,
+        "text": "长吻末端的夹状结构可能帮助拾取或抓住食物，再送向腹面的口。",
+        "creatureId": "cam_opabinia",
+        "evidenceId": "cam_opabinia:nozzle"
+      },
+      {
+        "id": "eyes",
+        "label": "五只眼",
+        "x": 54,
+        "y": 36,
+        "text": "五只眼是特别的结构线索，却不能据此列出确定的食谱。",
+        "creatureId": "cam_opabinia",
+        "evidenceId": "cam_opabinia:eyes"
+      }
+    ],
+    "options": [
+      {
+        "id": "soft",
+        "text": "结构研究支持加拿大奇虾可能捕捉柔软猎物",
+        "correct": true,
+        "feedback": "有刺不等于能夹碎硬壳；欧巴宾海蝎的长吻也不能证明它吃哪一种三叶虫。"
+      },
+      {
+        "id": "fixed",
+        "text": "这些动物肯定是固定天敌",
+        "correct": false,
+        "feedback": "共处一个时期不证明直接捕食。请查看前附肢研究更新。"
+      },
+      {
+        "id": "all",
+        "text": "所有奇虾类都吃相同食物",
+        "correct": false,
+        "feedback": "这里核对的是加拿大奇虾，不能推广到整个类群。"
+      }
+    ],
+    "knowledgeIds": [
+      "knowledge_cam_anomalocaris",
+      "knowledge_cam_olenoides",
+      "knowledge_cam_opabinia"
+    ],
+    "completionConditions": {
+      "requiredEvidence": [
+        "cam_anomalocaris:limb",
+        "cam_olenoides:shell",
+        "cam_opabinia:nozzle"
+      ],
+      "correctJudgment": true,
+      "correctEvidence": true
+    },
+    "unlockCreatureIds": [
+      "cam_anomalocaris",
+      "cam_olenoides",
+      "cam_opabinia"
+    ],
+    "ecologyLinkIds": [
+      "link_cam_soft_anomalocaris",
+      "link_cam_opabinia_structure",
+      "link_cam_olenoides_shell"
+    ],
+    "prerequisiteIds": [
+      "quest_cam_feeding_01"
+    ],
+    "noteId": "note_quest_cam_compare_02",
+    "correctEvidenceId": "cam_anomalocaris:limb",
+    "notebookSummary": "研究更新支持柔软猎物，不能认定专吃硬壳三叶虫。 中央轴叶加两侧肋叶；不能把三叶当成头胸尾。 长吻夹状末端可能参与取食；具体猎物未定。"
+  },
+  {
+    "id": "quest_cam_burial_03",
+    "eraId": "cambrian",
+    "sceneId": "cam_cliff",
+    "creatureIds": [
+      "cam_marrella",
+      "cam_olenoides"
+    ],
+    "title": "海床如何留下线索",
+    "question": "从死亡到化石被发现，怎样重建这个过程？",
+    "template": "reconstruct",
+    "stages": [
+      "observe",
+      "judge",
+      "result"
+    ],
+    "observationHotspots": [
+      {
+        "id": "antenna",
+        "label": "头部触角",
+        "x": 29,
+        "y": 31,
+        "text": "触角可能帮助感知周围；不能把头部棘直接当成捕猎武器。",
+        "creatureId": "cam_marrella",
+        "evidenceId": "cam_marrella:antenna"
+      },
+      {
+        "id": "legs",
+        "label": "身体附肢",
+        "x": 61,
+        "y": 63,
+        "text": "附肢结构支持游动与收集颗粒的解释，颗粒可能来自水中或沉积物。",
+        "creatureId": "cam_marrella",
+        "evidenceId": "cam_marrella:legs"
+      },
+      {
+        "id": "axis",
+        "label": "中央轴叶",
+        "x": 50,
+        "y": 45,
+        "text": "中央的一条轴叶与两侧肋叶，构成从左到右的三叶。",
+        "creatureId": "cam_olenoides",
+        "evidenceId": "cam_olenoides:axis"
+      },
+      {
+        "id": "shell",
+        "label": "外骨骼",
+        "x": 72,
+        "y": 61,
+        "text": "硬的背部外骨骼较容易留下化石；腹面的附肢也可能在特殊条件下保存。",
+        "creatureId": "cam_olenoides",
+        "evidenceId": "cam_olenoides:shell"
+      }
+    ],
+    "options": [],
+    "knowledgeIds": [
+      "knowledge_cam_marrella",
+      "knowledge_cam_olenoides",
+      "knowledge_cam_preservation"
+    ],
+    "completionConditions": {
+      "requiredEvidence": [
+        "cam_marrella:legs",
+        "cam_olenoides:shell"
+      ],
+      "correctJudgment": true,
+      "correctEvidence": true
+    },
+    "unlockCreatureIds": [
+      "cam_marrella",
+      "cam_olenoides"
+    ],
+    "ecologyLinkIds": [],
+    "prerequisiteIds": [
+      "quest_cam_compare_02"
+    ],
+    "noteId": "note_quest_cam_burial_03",
+    "correctEvidenceId": "cam_marrella:legs",
+    "notebookSummary": "可能从水中或沉积物摄取有机颗粒。 中央轴叶加两侧肋叶；不能把三叶当成头胸尾。",
+    "reconstruction": [
+      {
+        "id": "death",
+        "text": "生物死亡，软组织开始腐败，信息逐渐丢失。"
+      },
+      {
+        "id": "burial",
+        "text": "在适当条件下被沉积物覆盖，部分信息得以保存。"
+      },
+      {
+        "id": "rock",
+        "text": "经历漫长的地质变化，后来岩层暴露，化石被发现。"
+      }
+    ],
+    "reconstructionNote": "简化的保存过程示意，不按比例表示时间；快速埋藏可在死亡后早期发生，不保证一定形成化石。"
+  },
+  {
+    "id": "quest_jur_structure_01",
+    "eraId": "jurassic_late",
+    "sceneId": "jur_fern",
+    "creatureIds": [
+      "jur_stegosaurus",
+      "jur_allosaurus"
+    ],
+    "title": "骨板与尾刺，一样吗",
+    "question": "哪种说法正确区分了结构和证据的限度？",
+    "template": "compare",
+    "stages": [
+      "observe",
+      "judge",
+      "result"
+    ],
+    "observationHotspots": [
+      {
+        "id": "plates",
+        "label": "背部骨板",
+        "x": 47,
+        "y": 30,
+        "text": "骨板的作用仍有争论，展示、识别和体温调节等解释需分别检验。",
+        "creatureId": "jur_stegosaurus",
+        "evidenceId": "jur_stegosaurus:plates"
+      },
+      {
+        "id": "tail",
+        "label": "尾部尖刺",
+        "x": 83,
+        "y": 59,
+        "text": "尾刺与防御有关的解释得到部分损伤化石支持，不能由此推断每次交锋的胜负。",
+        "creatureId": "jur_stegosaurus",
+        "evidenceId": "jur_stegosaurus:tail"
+      },
+      {
+        "id": "teeth",
+        "label": "颌与牙齿",
+        "x": 24,
+        "y": 34,
+        "text": "颌和牙齿支持肉食生活的解释，不能说明它每次捕食的对象。",
+        "creatureId": "jur_allosaurus",
+        "evidenceId": "jur_allosaurus:teeth"
+      },
+      {
+        "id": "vertebra",
+        "label": "损伤线索",
+        "x": 66,
+        "y": 60,
+        "text": "博物馆讨论的某件异特龙椎骨有损伤，可能与剑龙尾刺有关；并非每个个体都有。",
+        "creatureId": "jur_allosaurus",
+        "evidenceId": "jur_allosaurus:vertebra"
+      }
+    ],
+    "options": [
+      {
+        "id": "different",
+        "text": "尾刺可能防御；骨板功能仍有争论",
+        "correct": true,
+        "feedback": "尾刺的防御解释有部分损伤线索。骨板有多个解释，不能给一次交锋判胜负。"
+      },
+      {
+        "id": "armor",
+        "text": "骨板和尾刺都是已经证实的盾牌",
+        "correct": false,
+        "feedback": "骨板功能尚未确定。请比较背部骨板和尾部尖刺。"
+      },
+      {
+        "id": "win",
+        "text": "有尾刺，所以剑龙每次都能获胜",
+        "correct": false,
+        "feedback": "结构线索不能确定每一次互动的结果。"
+      }
+    ],
+    "knowledgeIds": [
+      "knowledge_jur_stegosaurus",
+      "knowledge_jur_allosaurus"
+    ],
+    "completionConditions": {
+      "requiredEvidence": [
+        "jur_stegosaurus:plates",
+        "jur_stegosaurus:tail",
+        "jur_allosaurus:vertebra"
+      ],
+      "correctJudgment": true,
+      "correctEvidence": true
+    },
+    "unlockCreatureIds": [
+      "jur_stegosaurus",
+      "jur_allosaurus"
+    ],
+    "ecologyLinkIds": [
+      "link_jur_plants_stegosaurus",
+      "link_jur_stegosaurus_defense"
+    ],
+    "prerequisiteIds": [],
+    "noteId": "note_quest_jur_structure_01",
+    "correctEvidenceId": "jur_stegosaurus:tail",
+    "notebookSummary": "尾刺可能用于防御，骨板功能仍有争论。 损伤可能支持一次防御互动，不能宣布固定胜负。"
+  },
+  {
+    "id": "quest_jur_feeding_02",
+    "eraId": "jurassic_late",
+    "sceneId": "jur_river",
+    "creatureIds": [
+      "jur_diplodocus",
+      "jur_dryosaurus",
+      "jur_ceratosaurus"
+    ],
+    "title": "牙齿、喙与鼻角",
+    "question": "判断怎样获取食物，哪组结构更相关？",
+    "template": "observe",
+    "stages": [
+      "observe",
+      "judge",
+      "result"
+    ],
+    "observationHotspots": [
+      {
+        "id": "teeth",
+        "label": "头部与牙齿",
+        "x": 18,
+        "y": 36,
+        "text": "梁龙前部较细的牙齿，支持取下植物材料的解释，而不是像臼齿那样充分咀嚼。",
+        "creatureId": "jur_diplodocus",
+        "evidenceId": "jur_diplodocus:teeth"
+      },
+      {
+        "id": "neck",
+        "label": "长颈",
+        "x": 40,
+        "y": 47,
+        "text": "长颈增加可接触的范围，但姿势与取食高度不能仅凭脖子长就确定。",
+        "creatureId": "jur_diplodocus",
+        "evidenceId": "jur_diplodocus:neck"
+      },
+      {
+        "id": "beak",
+        "label": "头部喙",
+        "x": 18,
+        "y": 33,
+        "text": "喙与牙齿是讨论植物取食的线索，不足以确定只吃哪一种植物。",
+        "creatureId": "jur_dryosaurus",
+        "evidenceId": "jur_dryosaurus:beak"
+      },
+      {
+        "id": "legs",
+        "label": "后肢",
+        "x": 55,
+        "y": 72,
+        "text": "后肢是讨论行动的线索，不能直接当作食性的证据。",
+        "creatureId": "jur_dryosaurus",
+        "evidenceId": "jur_dryosaurus:legs"
+      },
+      {
+        "id": "horn",
+        "label": "鼻部角状结构",
+        "x": 27,
+        "y": 27,
+        "text": "鼻角是识别形态的线索。单看鼻角，不能判断具体食物。",
+        "creatureId": "jur_ceratosaurus",
+        "evidenceId": "jur_ceratosaurus:horn"
+      },
+      {
+        "id": "teeth",
+        "label": "颌与牙齿",
+        "x": 24,
+        "y": 39,
+        "text": "应把颌、牙齿和其他证据一起考虑；展示中不指定它捕食某个植食者。",
+        "creatureId": "jur_ceratosaurus",
+        "evidenceId": "jur_ceratosaurus:teeth"
+      }
+    ],
+    "options": [
+      {
+        "id": "jaw",
+        "text": "比较牙齿与喙，再结合其他资料",
+        "correct": true,
+        "feedback": "这些结构直接参与获取或处理食物；仍不能确定具体植物或猎物。"
+      },
+      {
+        "id": "horn",
+        "text": "只看鼻角和腿的长度",
+        "correct": false,
+        "feedback": "鼻角与后肢不能单独回答食性问题。回看颌与牙齿。"
+      },
+      {
+        "id": "same",
+        "text": "同层出土就说明互相捕食",
+        "correct": false,
+        "feedback": "地层记录与直接取食证据不同，不能直接画捕食线。"
+      }
+    ],
+    "knowledgeIds": [
+      "knowledge_jur_diplodocus",
+      "knowledge_jur_dryosaurus",
+      "knowledge_jur_ceratosaurus"
+    ],
+    "completionConditions": {
+      "requiredEvidence": [
+        "jur_diplodocus:teeth",
+        "jur_dryosaurus:beak",
+        "jur_ceratosaurus:teeth"
+      ],
+      "correctJudgment": true,
+      "correctEvidence": true
+    },
+    "unlockCreatureIds": [
+      "jur_diplodocus",
+      "jur_dryosaurus",
+      "jur_ceratosaurus"
+    ],
+    "ecologyLinkIds": [
+      "link_jur_plants_diplodocus",
+      "link_jur_plants_dryosaurus",
+      "link_jur_ceratosaurus_teeth"
+    ],
+    "prerequisiteIds": [
+      "quest_jur_structure_01"
+    ],
+    "noteId": "note_quest_jur_feeding_02",
+    "correctEvidenceId": "jur_diplodocus:teeth",
+    "notebookSummary": "牙齿支持获取植物材料，不直接证明只吃某一种树。 喙和牙齿对应取食问题，后肢更多对应行动问题。 判断食性应找相关结构，不能只看鼻角。"
+  },
+  {
+    "id": "quest_jur_rebuild_03",
+    "eraId": "jurassic_late",
+    "sceneId": "jur_forest",
+    "creatureIds": [
+      "jur_stegosaurus",
+      "jur_diplodocus",
+      "jur_dryosaurus"
+    ],
+    "title": "把解释交给证据",
+    "question": "怎样把一个有关生态的说法变成谨慎的科学解释？",
+    "template": "reconstruct",
+    "stages": [
+      "observe",
+      "judge",
+      "result"
+    ],
+    "observationHotspots": [
+      {
+        "id": "plates",
+        "label": "背部骨板",
+        "x": 47,
+        "y": 30,
+        "text": "骨板的作用仍有争论，展示、识别和体温调节等解释需分别检验。",
+        "creatureId": "jur_stegosaurus",
+        "evidenceId": "jur_stegosaurus:plates"
+      },
+      {
+        "id": "tail",
+        "label": "尾部尖刺",
+        "x": 83,
+        "y": 59,
+        "text": "尾刺与防御有关的解释得到部分损伤化石支持，不能由此推断每次交锋的胜负。",
+        "creatureId": "jur_stegosaurus",
+        "evidenceId": "jur_stegosaurus:tail"
+      },
+      {
+        "id": "teeth",
+        "label": "头部与牙齿",
+        "x": 18,
+        "y": 36,
+        "text": "梁龙前部较细的牙齿，支持取下植物材料的解释，而不是像臼齿那样充分咀嚼。",
+        "creatureId": "jur_diplodocus",
+        "evidenceId": "jur_diplodocus:teeth"
+      },
+      {
+        "id": "neck",
+        "label": "长颈",
+        "x": 40,
+        "y": 47,
+        "text": "长颈增加可接触的范围，但姿势与取食高度不能仅凭脖子长就确定。",
+        "creatureId": "jur_diplodocus",
+        "evidenceId": "jur_diplodocus:neck"
+      },
+      {
+        "id": "beak",
+        "label": "头部喙",
+        "x": 18,
+        "y": 33,
+        "text": "喙与牙齿是讨论植物取食的线索，不足以确定只吃哪一种植物。",
+        "creatureId": "jur_dryosaurus",
+        "evidenceId": "jur_dryosaurus:beak"
+      },
+      {
+        "id": "legs",
+        "label": "后肢",
+        "x": 55,
+        "y": 72,
+        "text": "后肢是讨论行动的线索，不能直接当作食性的证据。",
+        "creatureId": "jur_dryosaurus",
+        "evidenceId": "jur_dryosaurus:legs"
+      }
+    ],
+    "options": [],
+    "knowledgeIds": [
+      "knowledge_jur_stegosaurus",
+      "knowledge_jur_diplodocus",
+      "knowledge_jur_dryosaurus"
+    ],
+    "completionConditions": {
+      "requiredEvidence": [
+        "jur_stegosaurus:plates",
+        "jur_diplodocus:teeth",
+        "jur_dryosaurus:beak"
+      ],
+      "correctJudgment": true,
+      "correctEvidence": true
+    },
+    "unlockCreatureIds": [
+      "jur_stegosaurus",
+      "jur_diplodocus",
+      "jur_dryosaurus"
+    ],
+    "ecologyLinkIds": [],
+    "prerequisiteIds": [
+      "quest_jur_feeding_02"
+    ],
+    "noteId": "note_quest_jur_rebuild_03",
+    "correctEvidenceId": "jur_stegosaurus:plates",
+    "notebookSummary": "尾刺可能用于防御，骨板功能仍有争论。 牙齿支持获取植物材料，不直接证明只吃某一种树。 喙和牙齿对应取食问题，后肢更多对应行动问题。",
+    "reconstruction": [
+      {
+        "id": "observe",
+        "text": "记录观察到的结构，并核对物种、时代和地点。"
+      },
+      {
+        "id": "compare",
+        "text": "对照相关资料，比较支持或反对解释的证据。"
+      },
+      {
+        "id": "limit",
+        "text": "提出有依据的解释，同时注明还不知道什么。"
+      }
+    ],
+    "reconstructionNote": "科学推理的教学步骤，可以返回前一步修正，不是古生物行为模拟。"
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "id": "link_cam_mat_wiwaxia",
+    "from": "resource_microbial_mat",
+    "to": "cam_wiwaxia",
+    "type": "food_source",
+    "label": "可能的食物来源",
+    "description": "口器结构与对比支持刮食微生物席的解释，不是直接观察到的行为。",
+    "sourceIds": [
+      "wiw",
+      "smith"
+    ],
+    "reviewStatus": "supported_interpretation"
+  },
+  {
+    "id": "link_cam_detritus_marrella",
+    "from": "resource_detritus",
+    "to": "cam_marrella",
+    "type": "food_source",
+    "label": "可能摄取颗粒",
+    "description": "可能从水中或沉积物摄取有机颗粒。",
+    "sourceIds": [
+      "mar"
+    ],
+    "reviewStatus": "supported_interpretation"
+  },
+  {
+    "id": "link_cam_soft_anomalocaris",
+    "from": "resource_soft_prey",
+    "to": "cam_anomalocaris",
+    "type": "predation_inferred",
+    "label": "可能的捕食来源",
+    "description": "2023年结构与力学研究支持柔软猎物；不指定三叶虫物种。",
+    "sourceIds": [
+      "ano"
+    ],
+    "reviewStatus": "supported_interpretation"
+  },
+  {
+    "id": "link_cam_opabinia_structure",
+    "from": "cam_opabinia",
+    "to": "structure_proboscis",
+    "type": "structure_function",
+    "label": "可能的取食工具",
+    "description": "夹状末端可能用于获取食物；没有指定猎物。",
+    "sourceIds": [
+      "opa"
+    ],
+    "reviewStatus": "supported_interpretation"
+  },
+  {
+    "id": "link_cam_olenoides_shell",
+    "from": "cam_olenoides",
+    "to": "structure_exoskeleton",
+    "type": "structure_function",
+    "label": "外骨骼结构",
+    "description": "背部外骨骼与腹面附肢是不同结构。",
+    "sourceIds": [
+      "olen"
+    ],
+    "reviewStatus": "checked"
+  },
+  {
+    "id": "link_jur_plants_stegosaurus",
+    "from": "resource_plants",
+    "to": "jur_stegosaurus",
+    "type": "food_source",
+    "label": "植物资源",
+    "description": "属级植食关系，未指定植物物种。",
+    "sourceIds": [
+      "ste"
+    ],
+    "reviewStatus": "checked"
+  },
+  {
+    "id": "link_jur_stegosaurus_defense",
+    "from": "jur_stegosaurus",
+    "to": "jur_allosaurus",
+    "type": "defense_interpretation",
+    "label": "可能的防御互动",
+    "description": "某件异特龙椎骨损伤与尾刺有关的解释；不代表固定天敌或胜负。",
+    "sourceIds": [
+      "injury"
+    ],
+    "reviewStatus": "supported_interpretation"
+  },
+  {
+    "id": "link_jur_plants_diplodocus",
+    "from": "resource_plants",
+    "to": "jur_diplodocus",
+    "type": "food_source",
+    "label": "植物资源",
+    "description": "属级植食关系；不指定高度或植物物种。",
+    "sourceIds": [
+      "dip"
+    ],
+    "reviewStatus": "checked"
+  },
+  {
+    "id": "link_jur_plants_dryosaurus",
+    "from": "resource_plants",
+    "to": "jur_dryosaurus",
+    "type": "food_source",
+    "label": "植物资源",
+    "description": "属级植食关系，不能与后肢形态混为同一条证据。",
+    "sourceIds": [
+      "nps"
+    ],
+    "reviewStatus": "checked"
+  },
+  {
+    "id": "link_jur_ceratosaurus_teeth",
+    "from": "jur_ceratosaurus",
+    "to": "structure_carnivorous_jaw",
+    "type": "structure_function",
+    "label": "颌与牙齿线索",
+    "description": "支持肉食生活；不列出具体猎物。",
+    "sourceIds": [
+      "dk",
+      "nps"
+    ],
+    "reviewStatus": "checked"
+  }
+]

@@ -1,0 +1,463 @@
+{
+  "cam_wiwaxia": {
+    "id": "cam_wiwaxia",
+    "name": "威瓦西亚虫",
+    "scientificName": "Wiwaxia corrugata",
+    "taxonRank": "species",
+    "eraId": "cambrian",
+    "environment": "海洋海床及近海床水层",
+    "region": "加拿大，不列颠哥伦比亚；布尔吉斯页岩",
+    "role": "底栖刮食者（推断）",
+    "knowledgeId": "knowledge_cam_wiwaxia",
+    "question": "嘴里的结构能告诉我们什么？",
+    "observations": [
+      {
+        "id": "mouth",
+        "label": "腹面口器",
+        "x": 28,
+        "y": 70,
+        "text": "腹面的齿列与获取食物有关；研究者据此推测它可能刮取海床表面食物。"
+      },
+      {
+        "id": "spines",
+        "label": "背部长棘",
+        "x": 56,
+        "y": 27,
+        "text": "长棘在背部。它们可能帮助防御，却不能单独证明吃什么。"
+      },
+      {
+        "id": "mat",
+        "label": "微生物席",
+        "x": 77,
+        "y": 84,
+        "text": "海床表面的微生物群落可能提供食物；这是一种有依据、仍需谨慎的解释。"
+      }
+    ],
+    "summary": "可能刮食微生物席；长棘不是捕食证明。",
+    "uncertainty": "食物种类与取食动作均属复原解释。",
+    "bookPrintPage": 72,
+    "reviewStatus": "book_and_external_checked",
+    "reading": [
+      "腹面口器留下了取食方式的线索。把它和背部的长棘分开看。",
+      "微生物席可能是食物来源。这里展示的是科学解释，并非亲眼看到的古代行为。"
+    ],
+    "term": [
+      "齿列",
+      "排成行的牙齿样结构，用来讨论如何获取食物。"
+    ],
+    "sourceIds": [
+      "dk",
+      "wiw",
+      "smith"
+    ],
+    "imageType": "程序绘制的结构示意；颜色与比例不作事实证据"
+  },
+  "cam_anomalocaris": {
+    "id": "cam_anomalocaris",
+    "name": "加拿大奇虾",
+    "scientificName": "Anomalocaris canadensis",
+    "taxonRank": "species",
+    "eraId": "cambrian",
+    "environment": "海洋海床及近海床水层",
+    "region": "加拿大，不列颠哥伦比亚；布尔吉斯页岩",
+    "role": "游泳捕食者（食性推断）",
+    "knowledgeId": "knowledge_cam_anomalocaris",
+    "question": "有刺的附肢一定能夹碎硬壳吗？",
+    "observations": [
+      {
+        "id": "limb",
+        "label": "前附肢",
+        "x": 26,
+        "y": 59,
+        "text": "前附肢参与抓取。2023年研究认为它更适于捕捉柔软的猎物。"
+      },
+      {
+        "id": "eye",
+        "label": "眼与游泳叶",
+        "x": 64,
+        "y": 44,
+        "text": "眼和身体侧叶有助于理解感知与游泳，但不能确定每一种猎物。"
+      }
+    ],
+    "summary": "研究更新支持柔软猎物，不能认定专吃硬壳三叶虫。",
+    "uncertainty": "原书为奇虾属介绍；物种食性以新版研究补充。",
+    "bookPrintPage": 77,
+    "reviewStatus": "book_and_external_checked",
+    "reading": [
+      "前附肢会抓取，不表示它一定能粉碎硬壳。研究也会检验结构能承受多大的力。",
+      "较新的研究支持柔软猎物的解释。不要把所有三叶虫都画成它固定的食物。"
+    ],
+    "term": [
+      "生物力学",
+      "用力与运动的知识，研究生物结构能怎样工作。"
+    ],
+    "sourceIds": [
+      "dk",
+      "ano"
+    ],
+    "imageType": "程序绘制的结构示意；颜色与比例不作事实证据"
+  },
+  "cam_olenoides": {
+    "id": "cam_olenoides",
+    "name": "三叶虫 Olenoides serratus",
+    "scientificName": "Olenoides serratus",
+    "taxonRank": "species",
+    "eraId": "cambrian",
+    "environment": "海洋海床及近海床水层",
+    "region": "加拿大，不列颠哥伦比亚；布尔吉斯页岩",
+    "role": "海床活动者；可能捕食或食腐",
+    "knowledgeId": "knowledge_cam_olenoides",
+    "question": "三叶虫的“三叶”是从哪里分的？",
+    "observations": [
+      {
+        "id": "axis",
+        "label": "中央轴叶",
+        "x": 50,
+        "y": 45,
+        "text": "中央的一条轴叶与两侧肋叶，构成从左到右的三叶。"
+      },
+      {
+        "id": "shell",
+        "label": "外骨骼",
+        "x": 72,
+        "y": 61,
+        "text": "硬的背部外骨骼较容易留下化石；腹面的附肢也可能在特殊条件下保存。"
+      }
+    ],
+    "summary": "中央轴叶加两侧肋叶；不能把三叶当成头胸尾。",
+    "uncertainty": "原书未定位该物种，不能用书中其他三叶虫冒名替代。",
+    "bookPrintPage": null,
+    "reviewStatus": "external_checked_book_unlocated",
+    "reading": [
+      "“三叶”说的是横向分区。它和从前到后的头、胸、尾不是同一组划分。",
+      "这种三叶虫有保留附肢的标本，帮助我们看见硬壳之外的线索。"
+    ],
+    "term": [
+      "外骨骼",
+      "身体外面的支撑与保护结构。"
+    ],
+    "sourceIds": [
+      "dk",
+      "olen"
+    ],
+    "imageType": "程序绘制的结构示意；颜色与比例不作事实证据"
+  },
+  "cam_opabinia": {
+    "id": "cam_opabinia",
+    "name": "欧巴宾海蝎",
+    "scientificName": "Opabinia regalis",
+    "taxonRank": "species",
+    "eraId": "cambrian",
+    "environment": "海洋海床及近海床水层",
+    "region": "加拿大，不列颠哥伦比亚；布尔吉斯页岩",
+    "role": "近海床取食者（推断）",
+    "knowledgeId": "knowledge_cam_opabinia",
+    "question": "长吻能怎样帮助获取食物？",
+    "observations": [
+      {
+        "id": "nozzle",
+        "label": "长吻末端",
+        "x": 20,
+        "y": 65,
+        "text": "长吻末端的夹状结构可能帮助拾取或抓住食物，再送向腹面的口。"
+      },
+      {
+        "id": "eyes",
+        "label": "五只眼",
+        "x": 54,
+        "y": 36,
+        "text": "五只眼是特别的结构线索，却不能据此列出确定的食谱。"
+      }
+    ],
+    "summary": "长吻夹状末端可能参与取食；具体猎物未定。",
+    "uncertainty": "保留“可能”，不指定它捕食某个展示物种。",
+    "bookPrintPage": 73,
+    "reviewStatus": "book_and_external_checked",
+    "reading": [
+      "长吻和口的位置，可以一起帮助重建取食过程。取食动作仍是研究者的解释。",
+      "外形古怪不是证据强弱的标准。要问：哪一处结构支持了这个判断？"
+    ],
+    "term": [
+      "复原",
+      "根据留下的证据，重建已经消失的形态或过程。"
+    ],
+    "sourceIds": [
+      "dk",
+      "opa"
+    ],
+    "imageType": "程序绘制的结构示意；颜色与比例不作事实证据"
+  },
+  "cam_marrella": {
+    "id": "cam_marrella",
+    "name": "马尔三叶形虫",
+    "scientificName": "Marrella splendens",
+    "taxonRank": "species",
+    "eraId": "cambrian",
+    "environment": "海洋海床及近海床水层",
+    "region": "加拿大，不列颠哥伦比亚；布尔吉斯页岩",
+    "role": "有机颗粒取食者（推断）",
+    "knowledgeId": "knowledge_cam_marrella",
+    "question": "小动物也能参与海床的物质循环吗？",
+    "observations": [
+      {
+        "id": "antenna",
+        "label": "头部触角",
+        "x": 29,
+        "y": 31,
+        "text": "触角可能帮助感知周围；不能把头部棘直接当成捕猎武器。"
+      },
+      {
+        "id": "legs",
+        "label": "身体附肢",
+        "x": 61,
+        "y": 63,
+        "text": "附肢结构支持游动与收集颗粒的解释，颗粒可能来自水中或沉积物。"
+      }
+    ],
+    "summary": "可能从水中或沉积物摄取有机颗粒。",
+    "uncertainty": "具体食物与动作仍属生态解释。",
+    "bookPrintPage": 74,
+    "reviewStatus": "book_and_external_checked",
+    "reading": [
+      "海床上不只有大型捕食者。小小的有机颗粒，也可能成为动物的食物。",
+      "“三叶形虫”不是说它就是三叶虫。观察结构，再核对正式名称。"
+    ],
+    "term": [
+      "有机碎屑",
+      "生物遗留、分解形成的碎小物质。"
+    ],
+    "sourceIds": [
+      "dk",
+      "mar"
+    ],
+    "imageType": "程序绘制的结构示意；颜色与比例不作事实证据"
+  },
+  "jur_stegosaurus": {
+    "id": "jur_stegosaurus",
+    "name": "剑龙",
+    "scientificName": "Stegosaurus（属级）",
+    "taxonRank": "genus",
+    "eraId": "jurassic_late",
+    "environment": "陆地河岸、林缘及季节性河道（展示环境）",
+    "region": "北美，莫里森组等晚侏罗世地层",
+    "role": "植食者",
+    "knowledgeId": "knowledge_jur_stegosaurus",
+    "question": "骨板与尾刺的作用一样吗？",
+    "observations": [
+      {
+        "id": "plates",
+        "label": "背部骨板",
+        "x": 47,
+        "y": 30,
+        "text": "骨板的作用仍有争论，展示、识别和体温调节等解释需分别检验。"
+      },
+      {
+        "id": "tail",
+        "label": "尾部尖刺",
+        "x": 83,
+        "y": 59,
+        "text": "尾刺与防御有关的解释得到部分损伤化石支持，不能由此推断每次交锋的胜负。"
+      }
+    ],
+    "summary": "尾刺可能用于防御，骨板功能仍有争论。",
+    "uncertainty": "目前按属级内容使用，不把某物种特征套到全属。",
+    "bookPrintPage": 272,
+    "reviewStatus": "book_and_external_checked",
+    "reading": [
+      "骨板和尾刺形状、位置不同。不要仅因为都很尖，就认定作用完全相同。",
+      "尾刺的防御解释有损伤线索支持。骨板的功能仍有多个待检验的解释。"
+    ],
+    "term": [
+      "假说",
+      "提出一个可用证据检验的解释；它并不等于已经确定的事实。"
+    ],
+    "sourceIds": [
+      "dk",
+      "ste",
+      "injury"
+    ],
+    "imageType": "程序绘制的结构示意；颜色与比例不作事实证据"
+  },
+  "jur_allosaurus": {
+    "id": "jur_allosaurus",
+    "name": "异特龙",
+    "scientificName": "Allosaurus（属级）",
+    "taxonRank": "genus",
+    "eraId": "jurassic_late",
+    "environment": "陆地河岸、林缘及季节性河道（展示环境）",
+    "region": "北美，莫里森组等晚侏罗世地层",
+    "role": "肉食者",
+    "knowledgeId": "knowledge_jur_allosaurus",
+    "question": "受伤骨骼能证明发生过什么？",
+    "observations": [
+      {
+        "id": "teeth",
+        "label": "颌与牙齿",
+        "x": 24,
+        "y": 34,
+        "text": "颌和牙齿支持肉食生活的解释，不能说明它每次捕食的对象。"
+      },
+      {
+        "id": "vertebra",
+        "label": "损伤线索",
+        "x": 66,
+        "y": 60,
+        "text": "博物馆讨论的某件异特龙椎骨有损伤，可能与剑龙尾刺有关；并非每个个体都有。"
+      }
+    ],
+    "summary": "损伤可能支持一次防御互动，不能宣布固定胜负。",
+    "uncertainty": "损伤热点是另附标本结构示意，不是活体自带伤口。",
+    "bookPrintPage": 261,
+    "reviewStatus": "book_and_external_checked",
+    "reading": [
+      "损伤的形状和位置能帮助研究互动。还要比较别的原因，保留解释的限度。",
+      "同层出土不是直接捕食证据。某件标本也不能代表所有同类的经历。"
+    ],
+    "term": [
+      "标本",
+      "供观察和研究的一件实物，例如一块保存下来的骨骼。"
+    ],
+    "sourceIds": [
+      "dk",
+      "nps",
+      "injury"
+    ],
+    "imageType": "程序绘制的结构示意；颜色与比例不作事实证据"
+  },
+  "jur_diplodocus": {
+    "id": "jur_diplodocus",
+    "name": "梁龙",
+    "scientificName": "Diplodocus（属级）",
+    "taxonRank": "genus",
+    "eraId": "jurassic_late",
+    "environment": "陆地河岸、林缘及季节性河道（展示环境）",
+    "region": "北美，莫里森组等晚侏罗世地层",
+    "role": "植食者",
+    "knowledgeId": "knowledge_jur_diplodocus",
+    "question": "牙齿能提供怎样的取食线索？",
+    "observations": [
+      {
+        "id": "teeth",
+        "label": "头部与牙齿",
+        "x": 18,
+        "y": 36,
+        "text": "梁龙前部较细的牙齿，支持取下植物材料的解释，而不是像臼齿那样充分咀嚼。"
+      },
+      {
+        "id": "neck",
+        "label": "长颈",
+        "x": 40,
+        "y": 47,
+        "text": "长颈增加可接触的范围，但姿势与取食高度不能仅凭脖子长就确定。"
+      }
+    ],
+    "summary": "牙齿支持获取植物材料，不直接证明只吃某一种树。",
+    "uncertainty": "原书属级叙述；植物连线只到资源类，不指定植物物种。",
+    "bookPrintPage": 268,
+    "reviewStatus": "book_and_external_checked",
+    "reading": [
+      "看牙齿怎样排列，再讨论怎样取下食物。体型大并不代表能吃任何植物。",
+      "长颈是结构线索，具体姿势还需要骨骼与运动研究支持。"
+    ],
+    "term": [
+      "植食",
+      "以植物作为主要食物来源。"
+    ],
+    "sourceIds": [
+      "dk",
+      "dip",
+      "nps"
+    ],
+    "imageType": "程序绘制的结构示意；颜色与比例不作事实证据"
+  },
+  "jur_ceratosaurus": {
+    "id": "jur_ceratosaurus",
+    "name": "角鼻龙",
+    "scientificName": "Ceratosaurus（属级）",
+    "taxonRank": "genus",
+    "eraId": "jurassic_late",
+    "environment": "陆地河岸、林缘及季节性河道（展示环境）",
+    "region": "北美莫里森组；属级记录也见于葡萄牙",
+    "role": "肉食者",
+    "knowledgeId": "knowledge_jur_ceratosaurus",
+    "question": "鼻角能单独告诉我们它吃什么吗？",
+    "observations": [
+      {
+        "id": "horn",
+        "label": "鼻部角状结构",
+        "x": 27,
+        "y": 27,
+        "text": "鼻角是识别形态的线索。单看鼻角，不能判断具体食物。"
+      },
+      {
+        "id": "teeth",
+        "label": "颌与牙齿",
+        "x": 24,
+        "y": 39,
+        "text": "应把颌、牙齿和其他证据一起考虑；展示中不指定它捕食某个植食者。"
+      }
+    ],
+    "summary": "判断食性应找相关结构，不能只看鼻角。",
+    "uncertainty": "只讨论属级记录；不承诺所有展示动物在同一地点共存。",
+    "bookPrintPage": 260,
+    "reviewStatus": "book_and_external_checked",
+    "reading": [
+      "鼻角很醒目，醒目却不等于最相关。讨论食性，要寻找参与获取食物的结构。",
+      "它在莫里森组有记录，不代表所有同层动物都曾与它直接交锋。"
+    ],
+    "term": [
+      "地层",
+      "按形成过程堆积起来的岩层，可以保存不同时间的信息。"
+    ],
+    "sourceIds": [
+      "dk",
+      "nps"
+    ],
+    "imageType": "程序绘制的结构示意；颜色与比例不作事实证据"
+  },
+  "jur_dryosaurus": {
+    "id": "jur_dryosaurus",
+    "name": "橡树龙",
+    "scientificName": "Dryosaurus（属级）",
+    "taxonRank": "genus",
+    "eraId": "jurassic_late",
+    "environment": "陆地河岸、林缘及季节性河道（展示环境）",
+    "region": "北美，莫里森组等晚侏罗世地层",
+    "role": "植食者",
+    "knowledgeId": "knowledge_jur_dryosaurus",
+    "question": "喙与后肢能回答同一个问题吗？",
+    "observations": [
+      {
+        "id": "beak",
+        "label": "头部喙",
+        "x": 18,
+        "y": 33,
+        "text": "喙与牙齿是讨论植物取食的线索，不足以确定只吃哪一种植物。"
+      },
+      {
+        "id": "legs",
+        "label": "后肢",
+        "x": 55,
+        "y": 72,
+        "text": "后肢是讨论行动的线索，不能直接当作食性的证据。"
+      }
+    ],
+    "summary": "喙和牙齿对应取食问题，后肢更多对应行动问题。",
+    "uncertainty": "原书属级内容；不指定 Dryosaurus altus 或 elderae。",
+    "bookPrintPage": 278,
+    "reviewStatus": "book_and_external_checked",
+    "reading": [
+      "头部结构适合讨论取食，后肢结构适合讨论运动。先想清问题，再挑线索。",
+      "这里按属级介绍橡树龙。不同物种与地点的记录不能随意合并。"
+    ],
+    "term": [
+      "证据相关性",
+      "一条线索是否真的能帮助回答眼前的问题。"
+    ],
+    "sourceIds": [
+      "dk",
+      "nps"
+    ],
+    "imageType": "程序绘制的结构示意；颜色与比例不作事实证据"
+  }
+}

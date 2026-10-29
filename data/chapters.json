@@ -1,0 +1,253 @@
+[
+  {
+    "id": "cam_feeding",
+    "eraId": "cambrian",
+    "questId": "quest_cam_feeding_01",
+    "name": "泥质觅食地",
+    "subtitle": "从一片微生物席开始",
+    "time": "约 5.05 亿年前",
+    "x": 14,
+    "y": 66,
+    "background": "assets/supplied/16-bit复古RPG寒武纪海底觅食地像素图生成.png",
+    "spawn": {
+      "x": 300,
+      "y": 390
+    },
+    "exit": {
+      "x": 875,
+      "y": 252
+    },
+    "colliders": [
+      {
+        "x": 40,
+        "y": 295,
+        "w": 195,
+        "h": 175
+      },
+      {
+        "x": 640,
+        "y": 330,
+        "w": 130,
+        "h": 120
+      }
+    ],
+    "specimens": [
+      {
+        "x": 302,
+        "y": 175,
+        "type": "wiwaxia"
+      },
+      {
+        "x": 660,
+        "y": 205,
+        "type": "trilobite"
+      }
+    ]
+  },
+  {
+    "id": "cam_water",
+    "eraId": "cambrian",
+    "questId": "quest_cam_compare_02",
+    "name": "海床上方水层",
+    "subtitle": "有刺，就能夹碎硬壳吗",
+    "time": "约 5.05 亿年前",
+    "x": 30,
+    "y": 34,
+    "background": "assets/supplied/16-bit复古RPG寒武纪海底觅食地像素图生成 (1).png",
+    "spawn": {
+      "x": 200,
+      "y": 365
+    },
+    "exit": {
+      "x": 875,
+      "y": 252
+    },
+    "colliders": [],
+    "specimens": [
+      {
+        "x": 350,
+        "y": 170,
+        "type": "anomalocaris"
+      },
+      {
+        "x": 720,
+        "y": 355,
+        "type": "trilobite"
+      }
+    ]
+  },
+  {
+    "id": "cam_cliff",
+    "eraId": "cambrian",
+    "questId": "quest_cam_burial_03",
+    "name": "海崖沉积区",
+    "subtitle": "让沉积物讲述时间",
+    "time": "约 5.05 亿年前",
+    "x": 45,
+    "y": 67,
+    "background": "assets/supplied/16-bit复古RPG寒武纪海底觅食地像素图生成 (2).png",
+    "spawn": {
+      "x": 200,
+      "y": 370
+    },
+    "exit": {
+      "x": 875,
+      "y": 350
+    },
+    "colliders": [
+      {
+        "x": 60,
+        "y": 35,
+        "w": 840,
+        "h": 115
+      }
+    ],
+    "specimens": [
+      {
+        "x": 350,
+        "y": 280,
+        "type": "trilobite"
+      },
+      {
+        "x": 740,
+        "y": 360,
+        "type": "marrella"
+      }
+    ]
+  },
+  {
+    "id": "jur_fern",
+    "eraId": "jurassic_late",
+    "questId": "quest_jur_structure_01",
+    "name": "蕨地与林缘",
+    "subtitle": "骨板与尾刺，一样吗",
+    "time": "约 1.5 亿年前",
+    "x": 61,
+    "y": 35,
+    "background": "assets/scenes/jur-fern-v4.png",
+    "spawn": {
+      "x": 200,
+      "y": 365
+    },
+    "exit": {
+      "x": 875,
+      "y": 265
+    },
+    "colliders": [
+      {
+        "x": 75,
+        "y": 55,
+        "w": 170,
+        "h": 180
+      },
+      {
+        "x": 625,
+        "y": 45,
+        "w": 200,
+        "h": 170
+      }
+    ],
+    "specimens": [
+      {
+        "x": 360,
+        "y": 235,
+        "type": "stegosaurus"
+      },
+      {
+        "x": 710,
+        "y": 365,
+        "type": "allosaurus"
+      }
+    ]
+  },
+  {
+    "id": "jur_river",
+    "eraId": "jurassic_late",
+    "questId": "quest_jur_feeding_02",
+    "name": "河岸取食区",
+    "subtitle": "牙齿、喙与鼻角",
+    "time": "约 1.5 亿年前",
+    "x": 76,
+    "y": 65,
+    "background": "assets/scenes/jur-river-v4.png",
+    "spawn": {
+      "x": 200,
+      "y": 365
+    },
+    "exit": {
+      "x": 875,
+      "y": 255
+    },
+    "colliders": [
+      {
+        "x": 80,
+        "y": 40,
+        "w": 170,
+        "h": 130
+      },
+      {
+        "x": 0,
+        "y": 404,
+        "w": 960,
+        "h": 136
+      }
+    ],
+    "specimens": [
+      {
+        "x": 350,
+        "y": 205,
+        "type": "diplodocus"
+      },
+      {
+        "x": 700,
+        "y": 300,
+        "type": "dryosaurus"
+      }
+    ]
+  },
+  {
+    "id": "jur_forest",
+    "eraId": "jurassic_late",
+    "questId": "quest_jur_rebuild_03",
+    "name": "林地与古河道",
+    "subtitle": "把解释交给证据",
+    "time": "约 1.5 亿年前",
+    "x": 90,
+    "y": 31,
+    "background": "assets/scenes/jur-forest-v4.png",
+    "spawn": {
+      "x": 205,
+      "y": 365
+    },
+    "exit": {
+      "x": 875,
+      "y": 255
+    },
+    "colliders": [
+      {
+        "x": 70,
+        "y": 55,
+        "w": 190,
+        "h": 185
+      },
+      {
+        "x": 640,
+        "y": 55,
+        "w": 185,
+        "h": 155
+      }
+    ],
+    "specimens": [
+      {
+        "x": 355,
+        "y": 225,
+        "type": "stegosaurus"
+      },
+      {
+        "x": 710,
+        "y": 365,
+        "type": "dryosaurus"
+      }
+    ]
+  }
+]

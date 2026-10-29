@@ -1,0 +1,90 @@
+{
+  "scrape": {
+    "label": "贴地刮取",
+    "button": "观察并记录刮取",
+    "resource": "mat",
+    "duration": 5,
+    "visual": "scrape",
+    "summary": "它贴近微生物席，前端小幅下探，海床细粒随动作扬起。"
+  },
+  "sift": {
+    "label": "翻动沉积物",
+    "button": "观察并记录翻动",
+    "resource": "sediment",
+    "duration": 5,
+    "visual": "sift",
+    "summary": "它停在松软沉积物旁，附肢交替摆动，周围出现细小沉积颗粒。"
+  },
+  "swim": {
+    "label": "转向游动",
+    "button": "观察并记录游动",
+    "resource": "water",
+    "duration": 6,
+    "visual": "swim",
+    "summary": "它沿水层前进并转向，侧叶起伏，身体周围的水流随之变化。"
+  },
+  "probe": {
+    "label": "长吻探查",
+    "button": "观察并记录探查",
+    "resource": "seabed",
+    "duration": 5,
+    "visual": "probe",
+    "summary": "它在近海床停留，长吻前伸、下探，再抬回原位。"
+  },
+  "gather": {
+    "label": "附肢收集颗粒",
+    "button": "观察并记录收集",
+    "resource": "particles",
+    "duration": 5,
+    "visual": "gather",
+    "summary": "它在碎屑颗粒旁停留，头部与细附肢摆动，悬浮颗粒随水流漂过。"
+  },
+  "crawl": {
+    "label": "贴地爬行",
+    "button": "观察并记录爬行",
+    "resource": "slope",
+    "duration": 6,
+    "visual": "crawl",
+    "summary": "它贴着沉积物缓慢前进，腹侧附肢交替活动。"
+  },
+  "graze": {
+    "label": "低头取食",
+    "button": "观察并记录取食",
+    "resource": "ferns",
+    "duration": 5,
+    "visual": "graze",
+    "summary": "剑龙先靠近低矮植物，再反复低头、轻动头部，抬头后结束本次观察。"
+  },
+  "drink": {
+    "label": "伸颈低头饮水",
+    "button": "观察并记录饮水",
+    "resource": "shore",
+    "duration": 6,
+    "visual": "drink",
+    "summary": "梁龙在岸上停下，长颈向前下方转动，头部靠近水面，涟漪扩散后抬起。"
+  },
+  "inspect": {
+    "label": "低首探查",
+    "button": "观察并记录探查",
+    "resource": "mud",
+    "duration": 5,
+    "visual": "inspect",
+    "summary": "角鼻龙在泥地边低头察看，停顿、转向，再向另一处移动。"
+  },
+  "patrol": {
+    "label": "停步巡视",
+    "button": "观察并记录巡视",
+    "resource": "channel",
+    "duration": 6,
+    "visual": "patrol",
+    "summary": "异特龙沿古河道前进，停步抬头察看，然后转向继续巡视。"
+  },
+  "alert": {
+    "label": "警觉退开",
+    "button": "观察并记录警觉",
+    "resource": null,
+    "duration": 5,
+    "visual": "alert",
+    "summary": "橡树龙先抬头停顿，再转身退开一段距离，尾部随动作摆动。"
+  }
+}
